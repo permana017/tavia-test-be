@@ -12,59 +12,60 @@ To get the Node server running locally:
 
 ## Folder Structure
 
-📦generate-tree
- ┣ 📂public
- ┃ ┗ 📂upload
- ┃ ┃ ┣ 📂export-file
- ┃ ┃ ┣ 📂files
- ┃ ┃ ┗ 📂images
- ┣ 📂src
- ┃ ┣ 📂controllers
- ┃ ┃ ┣ 📜authController.js
- ┃ ┃ ┣ 📜employeeConroller.js
- ┃ ┃ ┗ 📜uploadImageController.js
- ┃ ┣ 📂db
- ┃ ┃ ┣ 📂config
- ┃ ┃ ┃ ┗ 📜config.json
- ┃ ┃ ┣ 📂migrations
- ┃ ┃ ┃ ┣ 📜20240611172701-create-user.js
- ┃ ┃ ┃ ┣ 📜20240612105709-create-employee.js
- ┃ ┃ ┃ ┗ 📜20240612173212-create-image.js
- ┃ ┃ ┗ 📂seeders
- ┃ ┃ ┃ ┣ 📜20240611174737-user.js
- ┃ ┃ ┃ ┣ 📜20240612111438-employee.js
- ┃ ┃ ┃ ┗ 📜20240612185917-image.js
- ┃ ┣ 📂middlewares
- ┃ ┃ ┣ 📜authMiddleware.js
- ┃ ┃ ┣ 📜importFile.js
- ┃ ┃ ┗ 📜multer.js
- ┃ ┣ 📂models
- ┃ ┃ ┣ 📜employee.js
- ┃ ┃ ┣ 📜image.js
- ┃ ┃ ┗ 📜user.js
- ┃ ┣ 📂routes
- ┃ ┃ ┣ 📜authRoute.js
- ┃ ┃ ┣ 📜documentRoute.js
- ┃ ┃ ┣ 📜employeeRoute.js
- ┃ ┃ ┣ 📜index.js
- ┃ ┃ ┗ 📜uploadRoute.js
- ┃ ┣ 📂services
- ┃ ┃ ┣ 📜authService.js
- ┃ ┃ ┣ 📜employeeService.js
- ┃ ┃ ┣ 📜fileService.js
- ┃ ┃ ┗ 📜uploadImageService.js
- ┃ ┣ 📂utils
- ┃ ┃ ┣ 📜cloudinary.js
- ┃ ┃ ┣ 📜connection.js
- ┃ ┃ ┣ 📜generateToken.js
- ┃ ┃ ┣ 📜hashPassword.js
- ┃ ┃ ┗ 📜mailetrap.js
- ┃ ┗ 📜index.js
- ┣ 📜.env
- ┣ 📜.gitignore
- ┣ 📜.sequelizerc
- ┣ 📜package-lock.json
- ┗ 📜package.json
+        generate-tree
+       ┣ public
+       ┃ ┗ upload
+       ┃ ┃ ┣ export-file
+       ┃ ┃ ┣ files
+       ┃ ┃ ┗ images
+       ┣ src
+       ┃ ┣ controllers
+       ┃ ┃ ┣ authController.js
+       ┃ ┃ ┣ employeeConroller.js
+       ┃ ┃ ┗ uploadImageController.js
+       ┃ ┣ db
+       ┃ ┃ ┣ config
+       ┃ ┃ ┃ ┗ config.json
+       ┃ ┃ ┣ migrations
+       ┃ ┃ ┃ ┣ 20240611172701-create-user.js
+       ┃ ┃ ┃ ┣ 20240612105709-create-employee.js
+       ┃ ┃ ┃ ┗ 20240612173212-create-image.js
+       ┃ ┃ ┗ seeders
+       ┃ ┃ ┃ ┣ 20240611174737-user.js
+       ┃ ┃ ┃ ┣ 20240612111438-employee.js
+       ┃ ┃ ┃ ┗ 20240612185917-image.js
+       ┃ ┣ middlewares
+       ┃ ┃ ┣ authMiddleware.js
+       ┃ ┃ ┣ importFile.js
+       ┃ ┃ ┗ multer.js
+       ┃ ┣ models
+       ┃ ┃ ┣ employee.js
+       ┃ ┃ ┣ image.js
+       ┃ ┃ ┗ user.js
+       ┃ ┣ routes
+       ┃ ┃ ┣ authRoute.js
+       ┃ ┃ ┣ documentRoute.js
+       ┃ ┃ ┣ employeeRoute.js
+       ┃ ┃ ┣ index.js
+       ┃ ┃ ┗ uploadRoute.js
+       ┃ ┣ services
+       ┃ ┃ ┣ authService.js
+       ┃ ┃ ┣ employeeService.js
+       ┃ ┃ ┣ fileService.js
+       ┃ ┃ ┗ uploadImageService.js
+       ┃ ┣ utils
+       ┃ ┃ ┣ cloudinary.js
+       ┃ ┃ ┣ connection.js
+       ┃ ┃ ┣ generateToken.js
+       ┃ ┃ ┣ hashPassword.js
+       ┃ ┃ ┗ mailetrap.js
+       ┃ ┗ index.js
+       ┣ .env
+       ┣ .gitignore
+       ┣ .sequelizerc
+       ┣ package-lock.json
+       ┗ package.json
+
     
 ## Endpoints
     
