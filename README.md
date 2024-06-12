@@ -5,7 +5,7 @@
 To get the Node server running locally:
 
 * Clone this repo with `https://github.com/permana017/tavia-test-be.git`
-* `cd backend`
+* `cd tavia-test-be`
 * `npm install` to install all required dependencies
 * `node index.js` to start the local server
 
@@ -72,7 +72,7 @@ To get the Node server running locally:
 auth endpoint
 
     POST      /api/auth/register
-    GET      /api/auth/confirm/:confirmationCode
+    GET       /api/auth/confirm/:confirmationCode
     POST      /api/auth/login
     POST      /api/auth/refresh-token
     POST      /api/auth/forgot-password
